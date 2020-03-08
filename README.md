@@ -1,2 +1,1 @@
-#MyApp
-Crud Application in PhH with PDO and MySQL
+<h1>PHP Crud Application with PDO and MySQL</h1>
