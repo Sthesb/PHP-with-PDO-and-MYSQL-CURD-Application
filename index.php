@@ -21,13 +21,13 @@
                 $statement->execute();
                 $dbtobos = $statement->fetchAll(PDO::FETCH_OBJ);
                 foreach($dbtobos as $todo){
-                    $_SESSION['id'] = $todo->todo_id;
+                   
                     echo '
                         <tr>
                         <td>'.$todo->todo.'</td>
                         <td>'.$todo->todo_description.'</td>
                         <td>
-                            <a href="update.php" class="btn btn-warning">Update</a>
+                            <a href="update.php?id='.$todo->todo_id.'" class="btn btn-warning">Update</a>
                             <a href="delete.php?id='.$todo->todo_id.'" class="btn btn-danger">Delete</a>
                         </td>
                         </tr>

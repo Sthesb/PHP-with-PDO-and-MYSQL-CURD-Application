@@ -2,7 +2,7 @@
 <?php 
     session_start();
     require 'config\dbconfig.php';
-    $id = (int)$_SESSION['id'];
+    $id = $_GET['id'];
     $message = "";
     if(isset($_POST['submit'])){
         if(empty($_POST['todo']) || empty($_POST['description'])){
