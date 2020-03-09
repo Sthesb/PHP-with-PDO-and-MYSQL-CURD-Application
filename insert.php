@@ -25,7 +25,7 @@
     }
 ?>
 <div class="container">
-    <h1 class="py-3" style= "font-weight: 300">CRUD APPLICATION IN PHP AND POD</h1>
+    <h1 class="py-3" style= "font-weight: 300">CRUD APPLICATION IN PHP PDO and MYSQL</h1>
     <hr>
     <div class="container bg-info">
         <h5>
