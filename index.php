@@ -1,6 +1,6 @@
 <?php require ('include\header.php'); ?> 
 <div class="container">
-    <h1 class="py-3" style= "font-weight: 300">CRUD APPLICATION IN PHP AND POD</h1>
+    <h1 class="py-3" style= "font-weight: 300">CRUD APPLICATION IN PHP PDO and MYSQL</h1>
     <hr>
     <h3 class = "py-2">List of Todos</h3>
     <a href="insert.php" class="btn btn-primary mb-2">Add New Todo</a>
